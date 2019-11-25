@@ -1,0 +1,4 @@
+# 引入另一个配置文件：application-dev.yml
+spring:
+  profiles:
+    active: dev

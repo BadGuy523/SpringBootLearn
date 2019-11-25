@@ -1,0 +1,20 @@
+server:
+  #设置tomcat端口
+  port: 8081
+  servlet:
+    #项目路径
+    context-path: /springboot
+
+
+spring:
+  datasource:
+    # java JDBC驱动   mysql6版本及以上使用com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 123
+
+
+#添加属性，可注入bean
+badguy:
+  name: zjq
