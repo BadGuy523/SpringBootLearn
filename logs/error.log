@@ -1,0 +1,71 @@
+22:34:23.634 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 2825 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
+22:34:33.656 [restartedMain] DEBUG com.zjq.springbootdemo.SpringbootdemoApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+22:34:33.656 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
+22:34:34.613 [restartedMain] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+22:34:35.138 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+22:34:35.139 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+22:34:35.140 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+22:34:35.326 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+22:34:35.460 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@27a7d40b
+22:34:35.606 [restartedMain] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+22:34:35.607 [restartedMain] DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+22:34:35.611 [restartedMain] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+22:34:35.614 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+22:34:35.615 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+22:34:35.615 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+22:34:35.616 [restartedMain] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+22:34:35.617 [restartedMain] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+22:34:35.617 [restartedMain] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+22:34:35.618 [restartedMain] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+22:34:35.618 [restartedMain] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+22:34:35.625 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+22:34:35.625 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+22:34:35.626 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+22:34:35.626 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+22:34:35.627 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+22:34:35.985 [restartedMain] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+22:34:35.988 [restartedMain] DEBUG io.lettuce.core.resource.DefaultClientResources - -Dio.netty.eventLoopThreads: 4
+22:34:35.994 [restartedMain] DEBUG io.lettuce.core.resource.DefaultEventLoopGroupProvider - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+22:34:36.021 [restartedMain] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+22:34:36.021 [restartedMain] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+22:34:36.028 [restartedMain] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+22:34:36.029 [restartedMain] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+22:34:36.032 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - Platform: MacOS
+22:34:36.034 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+22:34:36.034 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+22:34:36.035 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+22:34:36.035 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+22:34:36.036 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+22:34:36.036 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+22:34:36.036 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+22:34:36.037 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+22:34:36.037 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+22:34:36.038 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+22:34:36.039 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/v3/_t1qpjjs4msf2grm8q0tfqhc0000gn/T (java.io.tmpdir)
+22:34:36.039 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+22:34:36.042 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 954728448 bytes
+22:34:36.042 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+22:34:36.043 [restartedMain] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+22:34:36.044 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+22:34:36.044 [restartedMain] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5643a861
+22:34:36.046 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+22:34:36.059 [restartedMain] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+22:34:36.083 [restartedMain] DEBUG io.lettuce.core.resource.DefaultClientResources - LatencyUtils/HdrUtils are not available, metrics are disabled
+22:34:36.137 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+22:34:36.137 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+22:34:36.138 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+22:34:36.138 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+22:34:36.138 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+22:34:36.138 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+22:34:36.138 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+22:34:36.138 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+22:34:36.138 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+22:34:36.138 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+22:34:36.139 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+22:34:36.139 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+22:34:36.139 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+22:34:36.440 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+22:34:36.514 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 28.434 seconds (JVM running for 44.585)
+22:35:25.523 [SpringContextShutdownHook] DEBUG io.lettuce.core.RedisClient - Initiate shutdown (100, 100, MILLISECONDS)
+22:35:25.538 [SpringContextShutdownHook] DEBUG io.lettuce.core.resource.DefaultClientResources - Initiate shutdown (0, 2, SECONDS)
+22:35:25.538 [SpringContextShutdownHook] DEBUG io.lettuce.core.resource.DefaultEventLoopGroupProvider - Initiate shutdown (0, 2, SECONDS)

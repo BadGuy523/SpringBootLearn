@@ -1,0 +1,8 @@
+22:58:31.082 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 2903 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
+22:58:41.101 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
+22:58:42.334 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+22:58:42.335 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+22:58:42.336 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+22:58:42.406 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+22:58:43.409 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+22:58:43.450 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 27.792 seconds (JVM running for 38.865)
