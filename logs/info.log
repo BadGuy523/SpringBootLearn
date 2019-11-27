@@ -1,127 +1,291 @@
-22:14:30.865 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 2448 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
-22:14:40.912 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
-22:14:43.730 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
-22:14:43.731 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-22:14:43.733 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-22:14:44.005 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
-22:14:45.442 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
-22:14:45.509 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 30.44 seconds (JVM running for 46.713)
-22:20:10.810 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 2580 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
-22:20:20.839 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
-22:20:22.233 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
-22:20:22.234 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-22:20:22.235 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-22:20:22.399 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
-22:20:23.444 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
-22:20:23.500 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 28.311 seconds (JVM running for 44.659)
-22:27:53.367 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 2790 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
-22:28:03.392 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
-22:28:04.905 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
-22:28:04.908 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-22:28:04.908 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-22:28:05.089 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
-22:28:06.017 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
-22:28:06.057 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 28.591 seconds (JVM running for 44.77)
-22:32:18.295 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 2809 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
-22:32:28.319 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
-22:32:29.714 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
-22:32:29.715 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-22:32:29.716 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-22:32:29.841 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
-22:32:30.765 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
-22:32:30.821 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 28.149 seconds (JVM running for 44.367)
-22:34:23.634 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 2825 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
-22:34:33.656 [restartedMain] DEBUG com.zjq.springbootdemo.SpringbootdemoApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-22:34:33.656 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
-22:34:34.613 [restartedMain] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-22:34:35.138 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
-22:34:35.139 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-22:34:35.140 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-22:34:35.326 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
-22:34:35.460 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@27a7d40b
-22:34:35.606 [restartedMain] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
-22:34:35.607 [restartedMain] DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
-22:34:35.611 [restartedMain] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
-22:34:35.614 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
-22:34:35.615 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
-22:34:35.615 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
-22:34:35.616 [restartedMain] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
-22:34:35.617 [restartedMain] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
-22:34:35.617 [restartedMain] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
-22:34:35.618 [restartedMain] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
-22:34:35.618 [restartedMain] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
-22:34:35.625 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
-22:34:35.625 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
-22:34:35.626 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
-22:34:35.626 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
-22:34:35.627 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
-22:34:35.985 [restartedMain] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
-22:34:35.988 [restartedMain] DEBUG io.lettuce.core.resource.DefaultClientResources - -Dio.netty.eventLoopThreads: 4
-22:34:35.994 [restartedMain] DEBUG io.lettuce.core.resource.DefaultEventLoopGroupProvider - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
-22:34:36.021 [restartedMain] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-22:34:36.021 [restartedMain] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-22:34:36.028 [restartedMain] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
-22:34:36.029 [restartedMain] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
-22:34:36.032 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - Platform: MacOS
-22:34:36.034 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
-22:34:36.034 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
-22:34:36.035 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
-22:34:36.035 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
-22:34:36.036 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
-22:34:36.036 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
-22:34:36.036 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
-22:34:36.037 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
-22:34:36.037 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
-22:34:36.038 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
-22:34:36.039 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/v3/_t1qpjjs4msf2grm8q0tfqhc0000gn/T (java.io.tmpdir)
-22:34:36.039 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-22:34:36.042 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 954728448 bytes
-22:34:36.042 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-22:34:36.043 [restartedMain] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
-22:34:36.044 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
-22:34:36.044 [restartedMain] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5643a861
-22:34:36.046 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
-22:34:36.059 [restartedMain] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
-22:34:36.083 [restartedMain] DEBUG io.lettuce.core.resource.DefaultClientResources - LatencyUtils/HdrUtils are not available, metrics are disabled
-22:34:36.137 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
-22:34:36.137 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
-22:34:36.138 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
-22:34:36.138 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
-22:34:36.138 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
-22:34:36.138 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
-22:34:36.138 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
-22:34:36.138 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
-22:34:36.138 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-22:34:36.138 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
-22:34:36.139 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-22:34:36.139 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
-22:34:36.139 [restartedMain] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-22:34:36.440 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
-22:34:36.514 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 28.434 seconds (JVM running for 44.585)
-22:35:25.523 [SpringContextShutdownHook] DEBUG io.lettuce.core.RedisClient - Initiate shutdown (100, 100, MILLISECONDS)
-22:35:25.538 [SpringContextShutdownHook] DEBUG io.lettuce.core.resource.DefaultClientResources - Initiate shutdown (0, 2, SECONDS)
-22:35:25.538 [SpringContextShutdownHook] DEBUG io.lettuce.core.resource.DefaultEventLoopGroupProvider - Initiate shutdown (0, 2, SECONDS)
-22:35:57.172 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 2849 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
-22:36:07.193 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
-22:36:08.620 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
-22:36:08.620 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-22:36:08.621 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-22:36:08.693 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
-22:36:09.877 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
-22:36:09.921 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 28.286 seconds (JVM running for 39.387)
-22:56:10.900 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 2879 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
-22:56:20.933 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
-22:56:22.213 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
-22:56:22.214 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-22:56:22.215 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-22:56:22.274 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
-22:56:23.345 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
-22:56:23.389 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 22.944 seconds (JVM running for 34.116)
-22:58:31.082 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 2903 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
-22:58:41.101 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
-22:58:42.334 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
-22:58:42.335 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-22:58:42.336 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-22:58:42.406 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
-22:58:43.409 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
-22:58:43.450 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 27.792 seconds (JVM running for 38.865)
+20:41:38.586 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 1117 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
+20:41:48.642 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
+20:41:50.869 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+20:41:50.870 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:41:50.871 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+20:41:50.963 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+20:41:52.579 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+20:41:52.624 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 29.629 seconds (JVM running for 41.293)
+20:42:07.005 [http-nio-8081-exec-3] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:52:45.004 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 1184 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
+20:52:55.032 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
+20:52:56.867 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+20:52:56.868 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:52:56.868 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+20:52:56.957 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+20:52:58.231 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+20:52:58.295 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 28.773 seconds (JVM running for 40.152)
+20:53:03.195 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:56:01.532 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 1245 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
+20:56:11.564 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
+20:56:13.433 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+20:56:13.434 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:56:13.435 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+20:56:13.521 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+20:56:14.870 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+20:56:14.914 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 28.85 seconds (JVM running for 40.14)
+20:56:50.284 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:58:18.301 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 1256 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
+20:58:28.341 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
+20:58:30.824 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+20:58:30.825 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:58:30.826 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+20:58:30.928 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+20:58:32.678 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+20:58:32.733 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 30.045 seconds (JVM running for 42.19)
+20:58:39.054 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:04:00.834 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 1309 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
+21:04:10.871 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
+21:04:15.924 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+21:04:15.926 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:04:15.927 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+21:04:16.513 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+21:04:20.722 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+21:04:20.775 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 36.015 seconds (JVM running for 48.009)
+21:04:43.300 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:08:05.028 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 1338 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
+21:08:15.066 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
+21:08:17.659 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+21:08:17.660 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:08:17.661 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+21:08:17.767 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+21:08:19.743 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+21:08:19.796 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 30.483 seconds (JVM running for 42.41)
+21:08:29.969 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:12:54.968 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 1383 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
+21:13:05.005 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
+21:13:07.436 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+21:13:07.438 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:13:07.438 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+21:13:07.538 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+21:13:09.370 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+21:13:09.427 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 30.099 seconds (JVM running for 42.16)
+21:14:29.827 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:14:33.163 [http-nio-8081-exec-2] INFO  com.zjq.springbootdemo.controller.LoginController - success
+21:20:06.089 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 1383 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
+21:20:16.103 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
+21:20:16.646 [restartedMain] WARN  org.apache.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+21:20:16.722 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+21:20:16.725 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:20:16.726 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+21:20:16.747 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+21:20:17.439 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+21:20:17.455 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 26.501 seconds (JVM running for 470.168)
+21:20:21.909 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:20:30.813 [http-nio-8081-exec-3] INFO  com.zjq.springbootdemo.controller.LoginController - success
+21:27:47.651 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 1383 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
+21:27:57.671 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
+21:27:58.184 [restartedMain] WARN  org.apache.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+21:27:58.235 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+21:27:58.235 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:27:58.236 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+21:27:58.247 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+21:27:58.883 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+21:27:58.888 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 26.375 seconds (JVM running for 931.588)
+21:28:37.041 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 1383 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
+21:28:47.059 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
+21:28:47.441 [restartedMain] WARN  org.apache.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+21:28:47.473 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+21:28:47.473 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:28:47.473 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+21:28:47.481 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+21:28:48.023 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+21:28:48.052 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 26.144 seconds (JVM running for 980.744)
+21:29:39.546 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:30:02.581 [http-nio-8081-exec-7] INFO  com.zjq.springbootdemo.controller.LoginController - success
+21:30:43.676 [http-nio-8081-exec-7] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [/springboot] threw exception [Request processing failed; nested exception is org.apache.shiro.authz.UnauthorizedException: Subject does not have permission [admin]] with root cause
+org.apache.shiro.authz.AuthorizationException: Not authorized to invoke method: public java.util.List com.zjq.springbootdemo.controller.UserController.getAll()
+	at org.apache.shiro.authz.aop.AuthorizingAnnotationMethodInterceptor.assertAuthorized(AuthorizingAnnotationMethodInterceptor.java:90) ~[shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.authz.aop.AnnotationsAuthorizingMethodInterceptor.assertAuthorized(AnnotationsAuthorizingMethodInterceptor.java:100) ~[shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.authz.aop.AuthorizingMethodInterceptor.invoke(AuthorizingMethodInterceptor.java:38) ~[shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.spring.security.interceptor.AopAllianceAnnotationsAuthorizingMethodInterceptor.invoke(AopAllianceAnnotationsAuthorizingMethodInterceptor.java:115) ~[shiro-spring-1.4.0.jar:1.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at com.zjq.springbootdemo.controller.UserController$$EnhancerBySpringCGLIB$$8a453c2f.getAll(<generated>) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) ~[shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) ~[shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) ~[shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) ~[shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) ~[shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) ~[shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) ~[shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) ~[shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387) ~[shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) ~[shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_221]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
+21:34:19.675 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 1383 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
+21:34:29.692 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
+21:34:30.209 [restartedMain] WARN  org.apache.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+21:34:30.253 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+21:34:30.255 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:34:30.255 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+21:34:30.277 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+21:34:30.953 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+21:34:30.958 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 26.419 seconds (JVM running for 1323.639)
+21:34:51.413 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:34:57.619 [http-nio-8081-exec-2] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [/springboot] threw exception [Request processing failed; nested exception is org.apache.shiro.authz.UnauthorizedException: Subject does not have permission [admin]] with root cause
+org.apache.shiro.authz.AuthorizationException: Not authorized to invoke method: public java.util.List com.zjq.springbootdemo.controller.UserController.getAll()
+	at org.apache.shiro.authz.aop.AuthorizingAnnotationMethodInterceptor.assertAuthorized(AuthorizingAnnotationMethodInterceptor.java:90) ~[shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.authz.aop.AnnotationsAuthorizingMethodInterceptor.assertAuthorized(AnnotationsAuthorizingMethodInterceptor.java:100) ~[shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.authz.aop.AuthorizingMethodInterceptor.invoke(AuthorizingMethodInterceptor.java:38) ~[shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.spring.security.interceptor.AopAllianceAnnotationsAuthorizingMethodInterceptor.invoke(AopAllianceAnnotationsAuthorizingMethodInterceptor.java:115) ~[shiro-spring-1.4.0.jar:1.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at com.zjq.springbootdemo.controller.UserController$$EnhancerBySpringCGLIB$$8a453c2f.getAll(<generated>) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) ~[shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) ~[shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) ~[shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) ~[shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) ~[shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) ~[shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) ~[shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) ~[shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387) ~[shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) ~[shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_221]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
+21:37:47.833 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 1383 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
+21:37:57.848 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
+21:37:58.377 [restartedMain] WARN  org.apache.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+21:37:58.430 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+21:37:58.430 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:37:58.431 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+21:37:58.445 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+21:37:59.051 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+21:37:59.057 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 26.355 seconds (JVM running for 1531.732)
+21:41:24.071 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 1568 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
+21:41:34.092 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
+21:41:37.603 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+21:41:37.604 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:41:37.605 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+21:41:37.726 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+21:41:39.812 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+21:41:39.862 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 32.122 seconds (JVM running for 44.064)
+21:41:44.935 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:42:47.657 [http-nio-8081-exec-9] INFO  com.zjq.springbootdemo.controller.LoginController - success
+21:44:20.634 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 1601 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
+21:44:30.667 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
+21:44:33.770 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+21:44:33.774 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:44:33.775 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+21:44:33.936 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+21:44:35.998 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+21:44:36.048 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 31.351 seconds (JVM running for 43.173)
+21:44:43.015 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:44:44.977 [http-nio-8081-exec-2] INFO  com.zjq.springbootdemo.controller.LoginController - success
+21:48:18.118 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 1601 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
+21:48:28.138 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
+21:48:28.760 [restartedMain] WARN  org.apache.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+21:48:28.802 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+21:48:28.803 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:48:28.803 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+21:48:28.820 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+21:48:29.415 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+21:48:29.418 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 26.513 seconds (JVM running for 276.536)

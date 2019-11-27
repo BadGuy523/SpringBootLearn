@@ -3,6 +3,8 @@ package com.zjq.springbootdemo.controller;
 import com.zjq.springbootdemo.model.User;
 import com.zjq.springbootdemo.service.UserService;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
+import org.apache.shiro.authz.annotation.RequiresRoles;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -19,11 +21,12 @@ import java.util.List;
 @Slf4j
 public class UserController {
 
-
     @Resource
     UserService userService;
 
     @RequestMapping("/getAll")
+    @RequiresPermissions("admin")
+    @RequiresRoles("admin")
     public List<User> getAll() {
         log.info("查询所有用户");
         return userService.getAll();

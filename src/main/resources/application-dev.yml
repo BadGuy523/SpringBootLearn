@@ -5,6 +5,7 @@ server:
     #项目路径
     context-path: /springboot
 
+debug: true
 
 spring:
   datasource:
@@ -14,16 +15,39 @@ spring:
     username: root
     password: 123
 
+  devtools:
+    restart:
+      enabled: true  #设置开启热部署
+  freemarker:
+    cache: false    #页面不加载缓存，修改即时生效
+
 mybatis:
-  # xml文件路径
+  #xml文件路径
   mapper-locations: classpath:mapper/*Mapper.xml
-  # 实体类路径(可以省略，在xml文件中有配置)
-  # type-aliases-package: com.zjq.springbootdemo.model
+  #实体类路径(可以省略，在xml文件中有配置)
+  type-aliases-package: com.zjq.springbootdemo.model
+  #配置mybatis日志生成
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
 logging:
   config: classpath:log4j2.xml
+
+shiro:
+  sessionManager:
+    #表示允许将sessionId放到cookie中
+    sessionIdCookieEnabled: true
+    #表示允许将sessionId放到url地址栏中
+    sessionIdUrlRewritingEnabled: true
+  #未获取授权时的默认跳转路径
+  unauthorizedUrl: /unauthorized.html
+  #表示开启shiro
+  web:
+    enabled: true
+  #登陆成功后的跳转页面
+  successUrl: /index.html
+  #登陆界面
+  loginUrl: /login.html
 
 #添加属性，可注入bean
 badguy:

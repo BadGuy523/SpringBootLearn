@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+index
+<button onclick="getAll()">login</button>
+<script src="http://libs.baidu.com/jquery/1.9.1/jquery.js"></script>
+<script>
+    function getAll() {
+        $.ajax({
+            url:"user/getAll",
+            success:function (data) {
+                console.log(data)
+                alert("success");
+            },
+            error:function (data) {
+                alert("error:"+data)
+            }
+        })
+    }
+</script>
+</body>
+</html>
