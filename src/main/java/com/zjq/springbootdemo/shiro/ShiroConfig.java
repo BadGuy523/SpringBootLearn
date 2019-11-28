@@ -32,6 +32,8 @@ public class ShiroConfig {
         definition.addPathDefinition("/login","anon");
         definition.addPathDefinition("/login.html","anon");
         definition.addPathDefinition("/swagger-ui.html","anon");
+        definition.addPathDefinition("/v2/**","anon");
+        definition.addPathDefinition("/swagger-resources/**","anon");
         definition.addPathDefinition("/user/getAll","perms[admin]");
         definition.addPathDefinition("/hello.html","roles[admin]");
         return definition;

@@ -30,7 +30,8 @@ index
             type:"get",
             url:"user/userinfo",
             success:function (data) {
-                alert(data);
+                console.log(data);
+                alert(JSON.stringify(data));
             },
             error:function (data) {
                 alert(data)
@@ -40,9 +41,10 @@ index
     function getUserById() {
         $.ajax({
             type:"get",
-            url:"user/userinfo/{2}",
+            url:"user/userinfo/2",
             success:function (data) {
-                alert(data);
+                console.log(data);
+                alert(JSON.stringify(data));
             },
             error:function (data) {
                 alert(data)

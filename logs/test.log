@@ -1,19 +1,18 @@
-21:44:20.634 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 1601 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
-21:44:30.667 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
-21:44:33.770 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
-21:44:33.774 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-21:44:33.775 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-21:44:33.936 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
-21:44:35.998 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
-21:44:36.048 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 31.351 seconds (JVM running for 43.173)
-21:44:43.015 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-21:44:44.977 [http-nio-8081-exec-2] INFO  com.zjq.springbootdemo.controller.LoginController - success
-21:48:18.118 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 1601 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
-21:48:28.138 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
-21:48:28.760 [restartedMain] WARN  org.apache.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
-21:48:28.802 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
-21:48:28.803 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-21:48:28.803 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-21:48:28.820 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
-21:48:29.415 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
-21:48:29.418 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 26.513 seconds (JVM running for 276.536)
+23:37:55.146 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 2737 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
+23:38:05.175 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
+23:38:07.830 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+23:38:07.831 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+23:38:07.832 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+23:38:07.930 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+23:38:08.989 [restartedMain] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+23:38:10.098 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+23:38:10.124 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+23:38:10.179 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+23:38:10.482 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+23:38:10.530 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 31.062 seconds (JVM running for 42.729)
+23:38:19.945 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:39:52.772 [http-nio-8081-exec-10] INFO  com.zjq.springbootdemo.controller.UserController - ---id:2
+23:39:52.835 [http-nio-8081-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:39:53.300 [http-nio-8081-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:48:52.706 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23:48:52.729 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

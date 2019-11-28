@@ -14,5 +14,17 @@
         select * from user
     </select>
 
+    <select id="getUserById" parameterType="String" resultMap="BaseResultMap">
+        select * from user where id = #{id}
+    </select>
+
+    <insert id="addUser" parameterType="com.zjq.springbootdemo.model.User">
+        insert into user values (#{id},#{name},#{age},#{account},#{password})
+    </insert>
+
+    <update id="updateUser" parameterType="com.zjq.springbootdemo.model.User">
+        update user set id=#{id},name = #{name},age = #{age},account = #{account},password = #{password} where id = #{id}
+    </update>
+
 </mapper>
 
