@@ -5,8 +5,7 @@ import com.zjq.springbootdemo.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.apache.shiro.authz.annotation.RequiresRoles;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -31,5 +30,27 @@ public class UserController {
         log.info("查询所有用户");
         return userService.getAll();
     }
+
+    @GetMapping("/userinfo")
+    public List<User> getAllUser() {
+        return userService.getAll();
+    }
+
+    @GetMapping("/userinfo/{id}")
+    public List<User> getUserById(@RequestBody User user) {
+        log.info("用户："+user);
+        return userService.getAll();
+    }
+
+    @PostMapping("/userinfo")
+    public List<User> addUser() {
+        return userService.getAll();
+    }
+
+    @PutMapping("/userinfo")
+    public List<User> updateUser() {
+        return userService.getAll();
+    }
+
 
 }

@@ -7,6 +7,10 @@
 <body>
 index
 <button onclick="getAll()">login</button>
+<button onclick="getAllUser()">查所有用户</button>
+<button onclick="getUserById()">根据id查用户</button>
+<button onclick="addUser()">增加用户</button>
+<button onclick="updateUser()">更新用户</button>
 <script src="http://libs.baidu.com/jquery/1.9.1/jquery.js"></script>
 <script>
     function getAll() {
@@ -21,6 +25,68 @@ index
             }
         })
     }
+    function getAllUser() {
+        $.ajax({
+            type:"get",
+            url:"user/userinfo",
+            success:function (data) {
+                alert(data);
+            },
+            error:function (data) {
+                alert(data)
+            }
+        })
+    }
+    function getUserById() {
+        $.ajax({
+            type:"get",
+            url:"user/userinfo/{2}",
+            success:function (data) {
+                alert(data);
+            },
+            error:function (data) {
+                alert(data)
+            }
+        })
+    }
+    function addUser() {
+        $.ajax({
+            type:"post",
+            url:"user/userinfo",
+            data:{
+                "name":"admin3",
+                "age":"18",
+                "account":"admin3",
+                "password":"123",
+            },
+            success:function (data) {
+                alert(data);
+            },
+            error:function (data) {
+                alert(data)
+            }
+        })
+    }
+    function updateUser() {
+        $.ajax({
+            type:"put",
+            url:"user/userinfo",
+            data:{
+                "id":"2",
+                "name":"admin22",
+                "age":"182",
+                "account":"admin22",
+                "password":"1232",
+            },
+            success:function (data) {
+                alert(data);
+            },
+            error:function (data) {
+                alert(data)
+            }
+        })
+    }
+
 </script>
 </body>
 </html>

@@ -31,6 +31,7 @@ public class ShiroConfig {
         DefaultShiroFilterChainDefinition definition = new DefaultShiroFilterChainDefinition();
         definition.addPathDefinition("/login","anon");
         definition.addPathDefinition("/login.html","anon");
+        definition.addPathDefinition("/swagger-ui.html","anon");
         definition.addPathDefinition("/user/getAll","perms[admin]");
         definition.addPathDefinition("/hello.html","roles[admin]");
         return definition;
