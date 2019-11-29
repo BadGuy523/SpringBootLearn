@@ -1,18 +1,15 @@
-23:37:55.146 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on BadGuyMac.local with PID 2737 (/Users/a/Desktop/File/Own/GitHub/SpringBootLearn/target/classes started by a in /Users/a/Desktop/File/Own/GitHub/SpringBootLearn)
-23:38:05.175 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
-23:38:07.830 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
-23:38:07.831 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-23:38:07.832 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-23:38:07.930 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
-23:38:08.989 [restartedMain] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-23:38:10.098 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-23:38:10.124 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-23:38:10.179 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-23:38:10.482 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
-23:38:10.530 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 31.062 seconds (JVM running for 42.729)
-23:38:19.945 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-23:39:52.772 [http-nio-8081-exec-10] INFO  com.zjq.springbootdemo.controller.UserController - ---id:2
-23:39:52.835 [http-nio-8081-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-23:39:53.300 [http-nio-8081-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-23:48:52.706 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-23:48:52.729 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:34:27.985 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Starting SpringbootdemoApplication on Lenovo-T520 with PID 4680 (D:\github\SpringBootLearn\target\classes started by Lenovo-T520 in D:\github\SpringBootLearn)
+14:34:27.998 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - The following profiles are active: dev
+14:34:31.663 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+14:34:31.666 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:34:31.668 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+14:34:31.837 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+14:34:33.637 [restartedMain] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+14:34:34.587 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+14:34:34.613 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+14:34:34.665 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+14:34:35.071 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+14:34:35.106 [restartedMain] INFO  com.zjq.springbootdemo.SpringbootdemoApplication - Started SpringbootdemoApplication in 7.839 seconds (JVM running for 11.553)
+14:34:55.954 [http-nio-8081-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:34:56.166 [http-nio-8081-exec-2] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+14:34:56.169 [http-nio-8081-exec-2] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
