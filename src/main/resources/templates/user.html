@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+user
+<button onclick="checkoutUser()">查看用户</button>
+<button onclick="deleteUser()">删除用户</button>
+
+<script src="http://libs.baidu.com/jquery/1.9.1/jquery.js"></script>
+<script>
+    function checkoutUser() {
+        $.ajax({
+            type:"get",
+            url:"checkoutUser",
+            success:function (data) {
+                alert("查看用户！");
+            }
+        })
+    }
+    function deleteUser() {
+        /*$.ajax({
+            type:"delete",
+            url:"deleteUser",
+            success:function (data) {
+                alert("删除用户！");
+            }
+        })*/
+        window.location.href = "deleteUser"
+    }
+</script>
+</body>
+</html>

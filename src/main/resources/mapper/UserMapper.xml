@@ -10,6 +10,24 @@
         <result column="password" jdbcType="VARCHAR" property="password" />
     </resultMap>
 
+    <resultMap id="UserInfo" type="com.zjq.springbootdemo.model.User">
+        <result column="id" jdbcType="VARCHAR" property="id" />
+        <result column="name" jdbcType="VARCHAR" property="name" />
+        <result column="age" jdbcType="INTEGER" property="age" />
+        <result column="account" jdbcType="VARCHAR" property="account" />
+        <result column="password" jdbcType="VARCHAR" property="password" />
+        <association property="role" javaType="com.zjq.springbootdemo.model.Role">
+            <result column="role_id" jdbcType="VARCHAR" property="id"></result>
+            <result column="role_name" jdbcType="VARCHAR" property="name"></result>
+            <result column="role_code" jdbcType="VARCHAR" property="code"></result>
+            <collection property="permissions" ofType="com.zjq.springbootdemo.model.Permission">
+                <result column="permission_id" jdbcType="VARCHAR" property="id"></result>
+                <result column="permission_name" jdbcType="VARCHAR" property="name"></result>
+                <result column="permission_code" jdbcType="VARCHAR" property="code"></result>
+            </collection>
+        </association>
+    </resultMap>
+
     <select id="getAll" resultMap="BaseResultMap">
         select * from user
     </select>
@@ -25,6 +43,29 @@
     <update id="updateUser" parameterType="com.zjq.springbootdemo.model.User">
         update user set id=#{id},name = #{name},age = #{age},account = #{account},password = #{password} where id = #{id}
     </update>
+
+    <!--获取用户的角色和权限信息-->
+    <select id="getUserInfo" parameterType="String" resultMap="UserInfo">
+        SELECT
+        `user`.id,
+        `user`.`name`,
+        `user`.age,
+        `user`.account,
+        `user`.`password`,
+        role.id as role_id,
+        role.`name` as role_name,
+        role.`code` as role_code,
+        permission.id as permission_id,
+        permission.`name` as permission_name,
+        permission.`code` as permission_code
+        FROM
+        `user`
+        INNER JOIN user_role ON `user`.id = user_role.user_id
+        INNER JOIN role ON user_role.role_id = role.id
+        INNER JOIN role_permission ON role_permission.role_id = role.id
+        INNER JOIN permission ON permission.id = role_permission.permission_id
+        where `user`.`name` = #{userName}
+    </select>
 
 </mapper>
 

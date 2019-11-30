@@ -19,11 +19,10 @@ public class LoginController {
 
     @RequestMapping("/login")
     public void login(String account,String password) {
-        System.out.println("123");
         Subject subject = SecurityUtils.getSubject();
         try {
             subject.login(new UsernamePasswordToken(account,password));
-            log.info("success");
+            log.info("login success");
         } catch (AuthenticationException e) {
             e.printStackTrace();
             log.info("failed");

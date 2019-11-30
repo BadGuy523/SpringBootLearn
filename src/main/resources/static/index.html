@@ -11,8 +11,21 @@ index
 <button onclick="getUserById()">根据id查用户</button>
 <button onclick="addUser()">增加用户</button>
 <button onclick="updateUser()">更新用户</button>
+<a href="admin.html">直接访问admin界面</a>
+<a href="javascript:void(0);" onclick="toUser()">直接访问user界面</a>
+<a href="javascript:void(0);" onclick="toAdminHtml()">controller跳转admin界面</a>
+<a href="javascript:void(0);" onclick="toUserHtml()">controller跳转user界面</a>
 <script src="http://libs.baidu.com/jquery/1.9.1/jquery.js"></script>
 <script>
+    function toAdminHtml() {
+        window.location.href = "user/toAdminHtml"
+    }
+    function toUserHtml() {
+        window.location.href = "user/toUserHtml"
+    }
+    function toUser() {
+        window.location.href = "user.html"
+    }
     function getAll() {
         $.ajax({
             url:"user/getAll",
