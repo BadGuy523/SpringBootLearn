@@ -3,7 +3,9 @@ package com.zjq.springbootdemo.service.impl;
 import com.zjq.springbootdemo.mapper.UserMapper;
 import com.zjq.springbootdemo.model.User;
 import com.zjq.springbootdemo.service.UserService;
+import org.springframework.core.env.SystemEnvironmentPropertySource;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -14,6 +16,7 @@ import java.util.List;
  * @date: 2019-11-26 19:55
  **/
 @Service
+@Transactional
 public class UserServiceImpl implements UserService {
 
     @Resource
@@ -21,6 +24,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public List<User> getAll() {
+        List<User> users = userMapper.getAll();
         return userMapper.getAll();
     }
 

@@ -39,6 +39,10 @@ mybatis:
   #配置mybatis日志生成
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # 开启mybatis的二级缓存
+    cache-enabled: true
+    # 设置一级缓存级别
+    local-cache-scope: session
 
 logging:
   config: classpath:log4j2.xml

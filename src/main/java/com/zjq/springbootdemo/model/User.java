@@ -2,13 +2,15 @@ package com.zjq.springbootdemo.model;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * @description: 用户实体类
  * @author: BadGuy
  * @date: 2019-11-26 19:50
  **/
 @Data
-public class User {
+public class User implements Serializable {
 
     private String id;
 

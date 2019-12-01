@@ -11,9 +11,11 @@ import org.apache.shiro.authz.annotation.Logical;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.apache.shiro.authz.annotation.RequiresRoles;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
@@ -58,7 +60,9 @@ public class UserController {
     }
 
     @GetMapping("/toTestHtml")
-    public String toTestHtml() {
+    public String toTestHtml(Model model) {
+        model.addAttribute("name", "tom");
+        model.addAttribute("list", userService.getAll());
         return "test";
     }
 
